@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(41, 41, 41);
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  z-index: 0;
+}
+
+button {
+  background-color: #9b3434;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 230px;
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  z-index: 10;
+  position: absolute;
+  left: 42vw;
+  top: 88vh;
+}
